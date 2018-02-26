@@ -7,8 +7,16 @@ header li, header ul{
   display: inline;
 }
 
+header a{
+  text-decoration: none;
+}
+
+header li:hover{
+  color:red;
+}
+
 header li{
-  margin: 0px 10px;
+  margin: 0px 14px;
   font-size: 14px;
   font-family: sans-serif;
   letter-spacing: 3.5px;
@@ -20,7 +28,8 @@ header #branding{
   display: inline;
   float: left;
   margin-top: -10px;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-right: -20px;
   width: 130px;
 }
 
@@ -68,6 +77,10 @@ header{
   font-size: 15px;
   letter-spacing: 1.5px;
   font-family: sans-serif;
+}
+
+#homeBanner button:hover{
+  background-color: rgba(95,14,130,0.5);
 }
 
 #homeContainer{
